@@ -1,0 +1,20 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows the list items to wrap onto multiple lines */
+}
+
+li {
+    margin: 10px; /* Adds space around each list item */
+    text-align: center; /* Centers the content of each list item */
+}
+
+/* Style the images */
+img {
+    width: 60px;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distorting its aspect ratio */
+}
